@@ -1,0 +1,110 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,800";
+body {
+  margin-bottom: 60px;
+  font-family: Open Sans;
+}
+
+.h1, h1 {
+  font-size: 36px;
+  font-size: 2.25rem;
+}
+
+.a, a {
+  color: #FFFFFF !important;
+}
+.a:hover, a:hover {
+  color: #000000 !important;
+}
+
+@media (max-width: 767px) {
+  main {
+    margin-bottom: 60px;
+  }
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.carousel-indicators li {
+  border-radius: 0px;
+  width: 30px;
+  height: 5px;
+}
+.carousel-indicators li.active {
+  width: 30px;
+  height: 5px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.package {
+  border: 1px solid #ff9000;
+  padding: 1em;
+  margin-bottom: 20px;
+}
+.package:hover {
+  background-color: #fdf6ec;
+  cursor: pointer;
+}
+.packageHome {
+  margin-bottom: 20px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: #b8c1e1;
+  display: block;
+}
+
+.footer-copyright {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.navigation {
+  background-color: #3c54a0;
+  background-image: none;
+  margin-bottom: 0;
+  border: none;
+  border-radius: 0;
+}
+
+.navigation {
+  padding: 5px 0px 0px 10px;
+}
+.navigation .header__link {
+  font-size: 2.5rem;
+}
+.navigation .header__btn {
+  color: #FFFFFF;
+  font-size: 2.375rem;
+}
+
+.myBlock .myBlock__elm .myBlock__elm--mod {
+  border-right: 2px solid #FFFFFF;
+  padding: 0px 20px;
+  margin: 15px 0px 15px 5px;
+}
+@media (max-width: 767px) {
+  .myBlock .myBlock__elm .myBlock__elm--mod {
+    border: none;
+  }
+}
+
+.myBlock .myBlock__elm .myBlock__elm--border {
+  border: none;
+}
+
+.branding {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

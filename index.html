@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" v="1.0" href="styles/styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+	<title> CA </title>
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <nav class=" navbar navbar-default [ navigation ]">
+        <div class="navbar-header [ header ]">
+            <button class="navbar-toggle collapsed [ header__btn ]" type="button" data-toggle="collapse" data-target="#collapseMenu">
+                <span class="glyphicon glyphicon-menu-hamburger [ header_btn--hamburger ]"></span>
+            </button>
+            <a class="navbar-brand [ header__link ]" href="#"><span class="header__link--text">January Island Escapes</span></a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="collapseMenu">
+            <ul class="nav navbar-nav navbar-right myBlock">
+                <li class="nav-item myBlock__elm">
+                    <a class="nav-link myBlock__elm--mod" href="#">Home </a>
+                </li>
+                <li class="nav-item myBlock__elm">
+                    <a class="nav-link myBlock__elm--mod" href="pages/packages.html">Packages </a>
+                </li>
+                <li class="nav-item myBlock__elm">
+                    <a class="nav-link myBlock__elm--mod myBlock__elm--border" href="pages/contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- CAROUSELL -->
+    <div id="carousel" class="carousel slide" data-ride="carousel"><!-- .carousel and .slide gets the right styles from bootstrap. data-ride tells bs.js what to do. -->
+        <!-- indictor -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+        
+        
+        <!-- images -->
+        <div class="carousel-inner">
+            <div class="item active"><!-- .active to show image -->
+                <img class="image" src="img/assets/banner1.jpg" alt="pink sunset at beach">
+            </div>
+            <div class="item"><!-- .active to show image -->
+                <img class="image" src="img/assets/banner2.jpg" alt="Chrystal clear blue waters">
+            </div>
+            <div class="item"><!-- .active to show image -->
+                <img class="image" src="img/assets/banner3.jpg" alt="Sunny palm beach">
+            </div>
+        </div>
+        
+        <!-- controls -->
+        <a class="left carousel-control" href="#carousel" data-slide="prev">
+            <span><i class="glyphicon glyphicon-chevron-left"></i></span>
+            <span class="sr-only">Previouse</span><!-- to help screen readers know what this button do -->
+        </a> 
+        <a class="right carousel-control" href="#carousel" data-slide="prev">
+            <span><i class="glyphicon glyphicon-chevron-right"></i></span>
+            <span class="sr-only">Previouse</span><!-- to help screen readers know what this button do -->
+        </a>
+        
+        
+        
+    </div>
+    
+    <!-- HEADING -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="branding">Welcome to January Island Escapes</h1>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus nisl vel varius egestas.</p>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <!-- CONTENT -->
+    <main class="container main">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="packageHome">
+                    <h2 class="packageHome__head">Package 1</h2>
+                    <p class="packageHome__txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus nisl vel varius egestas. Fusce facilisis nunc quis fermentum fermentum.</p>
+                    <button class="btn btn-warning">Find out more</button>
+                </div>
+            </div>
+            
+            <div class="col-md-3">
+                <div class="packageHome">
+                    <h2 class="packageHome__head">Package 2</h2>
+                    <p class="packageHome__txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus nisl vel varius egestas. Fusce facilisis nunc quis fermentum fermentum.</p>
+                    <button class="btn btn-warning">Find out more</button>
+                </div>
+            </div>
+            
+            <div class="col-md-3">
+                <div class="packageHome">
+                    <h2 class="packageHome__head">Package 3</h2>
+                    <p class="packageHome__txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus nisl vel varius egestas. Fusce facilisis nunc quis fermentum fermentum.</p>
+                    <button class="btn btn-warning">Find out more</button>
+                </div>
+            </div>
+            
+            <div class="col-md-3">
+                <div class="packageHome">
+                    <h2 class="packageHome__head">Package 4</h2>
+                    <p class="packageHome__txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus nisl vel varius egestas. Fusce facilisis nunc quis fermentum fermentum.</p>
+                    <button class="btn btn-warning">Find out more</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-copyright">Copywrite &copy; 19</p>  
+        </div>
+    </footer>
+    
+</body>
+</html>

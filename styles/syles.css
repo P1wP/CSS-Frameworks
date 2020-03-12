@@ -1,0 +1,33 @@
+.navbar-default {
+  background-color: #3c54a0;
+  background-image: none;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border: none;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #FFFFFF;
+}
+
+h1 {
+  font-size: 2.1875 rem;
+}
+.carousel-indicators li {
+  border-radius: 0px;
+  width: 30px;
+  height: 5px;
+}
+.carousel-indicators li.active {
+  width: 30px;
+  height: 5px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=syles.css.map */
